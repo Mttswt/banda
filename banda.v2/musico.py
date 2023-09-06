@@ -1,9 +1,9 @@
-from instrumentos import *
+from instrumentos1 import *
 class Musico:
     def __init__(self,instrumento):
         self.instrumento = instrumento
-    def tocar(self):
+    def tocar_instrumento(self):
         self.instrumento.tocar()
-    def afinar(self):
+    def afinar_instrumento(self):
         self.instrumento.afinar()
         
